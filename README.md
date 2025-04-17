@@ -268,30 +268,30 @@ Q:
   ```js
   db.internações.aggregate([
   {
-    $unwind: "$enfermeiros_responsaveis" // Desestrutura o array de enfermeiros responsáveis
+    $unwind: "$enfermeiros_responsaveis" 
   },
   {
     $group: {
-      _id: "$enfermeiros_responsaveis", // Agrupa pelo identificador do enfermeiro (COREN)
-      totalInternacoes: { $sum: 1 }    // Soma o número de internações por enfermeiro
+      _id: "$enfermeiros_responsaveis", 
+      totalInternacoes: { $sum: 1 }    
     }
   },
   {
-    $match: { totalInternacoes: { $gt: 1 } } // Filtra enfermeiros com mais de uma internação
+    $match: { totalInternacoes: { $gt: 1 } }
   },
   {
     $lookup: {
-      from: "enfermeiros",                // Junta com a coleção de enfermeiros
-      localField: "_id",                  // Campo identificador do enfermeiro (COREN)
-      foreignField: "documentos.coren",   // Campo correspondente na coleção de enfermeiros
-      as: "detalhesEnfermeiro"            // Nome do array com informações do enfermeiro
+      from: "enfermeiros",               
+      localField: "_id",                  
+      foreignField: "documentos.coren",   
+      as: "detalhesEnfermeiro"            
     }
   },
   {
     $project: {
-      coren: "$_id",                                     // COREN do enfermeiro
-      nome: { $arrayElemAt: ["$detalhesEnfermeiro.nome", 0] }, // Nome do enfermeiro
-      totalInternacoes: 1                               // Número de internações
+      coren: "$_id",                                     
+      nome: { $arrayElemAt: ["$detalhesEnfermeiro.nome", 0] }, 
+      totalInternacoes: 1                               
     }
   }
   ]);
