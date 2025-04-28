@@ -1,0 +1,480 @@
+[
+  {
+    "_id_consulta": "1",
+    "crm_medico": "SP000001",
+    "id_paciente": "6",
+    "especialidade_buscada": "Neurologista",
+    "data_hora": "2020-03-11 / 10:00:00",
+    "descricao": "Consulta para avaliação de sintomas neurológicos, incluindo dores de cabeça frequentes.",
+    "observacao": "Paciente relatou histórico de dores crônicas.",
+    "receita_medicamentos": [
+      "Analgésico 1x ao dia",
+      "Relaxante muscular"
+    ],
+    "convenio": {
+      "nome": "Unimed",
+      "numero_carteira": "12345"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": [
+      "Dores de cabeça frequentes",
+      "Tontura"
+    ],
+    "exames_solicitados": [
+      "Ressonância magnética do crânio",
+      "Teste de reflexos neurológicos"
+    ],
+    "data_retorno": "2020-03-25",
+    "tempo_duracao": "45min",
+    "local_consulta": "Presencial - Unidade Morumbi",
+    "urgencia_consulta": "Normal",
+    "custo": 150.00
+  },
+  {
+    "_id_consulta": "2",
+    "crm_medico": "SP000006",
+    "id_paciente": "3",
+    "especialidade_buscada": "Cardiologista",
+    "data_hora": "2023-06-01 / 14:00:00",
+    "descricao": "Consulta para avaliação de dor torácica.",
+    "observacao": "Paciente relatou histórico de hipertensão arterial.",
+    "receita_medicamentos": [
+      "Antiplaquetário",
+      "Betabloqueador"
+    ],
+    "convenio": {
+      "nome": "Mais Saúde",
+      "numero_carteira": "67890"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": [
+      "Dor no peito",
+      "Cansaço ao esforço"
+    ],
+    "exames_solicitados": [
+      "Eletrocardiograma",
+      "Ecocardiograma"
+    ],
+    "data_retorno": "2023-06-15",
+    "tempo_duracao": 60,
+    "local_consulta": "Presencial - Unidade Paulista",
+    "urgencia_consulta": "Urgente",
+    "custo": 200.00
+  },
+  {
+    "_id_consulta": "3",
+    "crm_medico": "SP000002",
+    "id_paciente": "2",
+    "especialidade_buscada": "Pediatria",
+    "data_hora": "2025-04-10 / 09:00:00",
+    "descricao": "Consulta para acompanhamento de vacinação infantil.",
+    "observacao": "Carteira de vacinação atualizada.",
+    "receita_medicamentos": [],
+    "convenio": {
+      "nome": "Vida",
+      "numero_carteira": "87654"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Nenhum, acompanhamento regular"],
+    "exames_solicitados": ["Nenhum"],
+    "data_retorno": "2025-10-10",
+    "tempo_duracao": 30,
+    "local_consulta": "Presencial - Unidade Paulista",
+    "urgencia_consulta": "Normal",
+    "custo": 100.00
+  },
+  {
+    "_id_consulta": "4",
+    "crm_medico": "SP000004",
+    "id_paciente": "5",
+    "especialidade_buscada": "Ortopedista",
+    "data_hora": "2025-04-11 / 14:30:00",
+    "descricao": "Consulta para avaliação de dor no joelho.",
+    "observacao": "Paciente relatou dor após atividade física.",
+    "receita_medicamentos": ["Anti-inflamatório 2x ao dia"],
+    "convenio": {
+      "nome": "Viver Bem",
+      "numero_carteira": "11223"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Dor no joelho", "Inchaço"],
+    "exames_solicitados": ["Raio-X do joelho"],
+    "data_retorno": "2025-05-15",
+    "tempo_duracao": 40,
+    "local_consulta": "Presencial - Unidade Pinheiros",
+    "urgencia_consulta": "Urgente",
+    "custo": 180.00
+  },
+  {
+    "_id_consulta": "5",
+    "crm_medico": "SP000007",
+    "id_paciente": "4",
+    "especialidade_buscada": "Pediatra",
+    "data_hora": "2025-04-10 / 11:00:00",
+    "descricao": "Consulta para avaliação de alergia respiratória.",
+    "observacao": "Paciente relatou espirros frequentes ao acordar.",
+    "receita_medicamentos": ["Antialérgico 1x ao dia"],
+    "convenio": {
+      "nome": "Bem-estar",
+      "numero_carteira": "33445"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Espirros", "Nariz entupido"],
+    "exames_solicitados": ["Teste de alergia"],
+    "data_retorno": "2025-04-24",
+    "tempo_duracao": 45,
+    "local_consulta": "Presencial - Unidade Bela Vista",
+    "urgencia_consulta": "Normal",
+    "custo": 150.00
+  },
+  {
+    "_id_consulta": "6",
+    "crm_medico": "SP000011",
+    "id_paciente": "7",
+    "especialidade_buscada": "Endocrinologista",
+    "data_hora": "2025-04-12 / 16:00:00",
+    "descricao": "Consulta para controle de diabetes tipo 2.",
+    "observacao": "Paciente relatou dificuldade em manter os níveis de glicose controlados.",
+    "receita_medicamentos": ["Insulina de longa duração"],
+    "convenio": {
+      "nome": "Amil",
+      "numero_carteira": "44556"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Aumento da sede", "Cansaço excessivo"],
+    "exames_solicitados": ["Exame de glicemia em jejum"],
+    "data_retorno": "2025-05-05",
+    "tempo_duracao": 50,
+    "local_consulta": "Presencial - Unidade Moema",
+    "urgencia_consulta": "Normal",
+    "custo": 200.00
+  },
+  {
+    "_id_consulta": "7",
+    "crm_medico": "SP000005",
+    "id_paciente": "8",
+    "especialidade_buscada": "Ginecologista",
+    "data_hora": "2025-04-15 / 10:00:00",
+    "descricao": "Consulta de rotina para realização de preventivo.",
+    "observacao": "Sem histórico de problemas ginecológicos.",
+    "receita_medicamentos": [],
+    "convenio": {
+      "nome": "Bradesco Saúde",
+      "numero_carteira": "55667"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Nenhum"],
+    "exames_solicitados": ["Preventivo"],
+    "data_retorno": "2026-04-15",
+    "tempo_duracao": 30,
+    "local_consulta": "Teleconsulta",
+    "urgencia_consulta": "Normal",
+    "custo": 120.00
+  },
+  {
+    "_id_consulta": "8",
+    "crm_medico": "SP000003",
+    "id_paciente": "9",
+    "especialidade_buscada": "Cardiologista",
+    "data_hora": "2025-04-14 / 15:00:00",
+    "descricao": "Consulta para controle de pressão arterial elevada.",
+    "observacao": "Paciente relata episódios de tontura e cansaço.",
+    "receita_medicamentos": ["Anti-hipertensivo 1x ao dia"],
+    "convenio": {
+      "nome": "SulAmérica Saúde",
+      "numero_carteira": "99887"
+    },
+    "status_consulta": "Agendada",
+    "medico_substituto": null,
+    "sintomas_principais": ["Tontura", "Pressão alta"],
+    "exames_solicitados": ["Mapa de pressão arterial"],
+    "data_retorno": "2025-04-28",
+    "tempo_duracao": 50,
+    "local_consulta": "Presencial - Unidade Brooklin",
+    "urgencia_consulta": "Normal",
+    "custo": 200.00
+  },
+  {
+    "_id_consulta": "9",
+    "crm_medico": "SP000008",
+    "id_paciente": "1",
+    "especialidade_buscada": "Dermatologista",
+    "data_hora": "2025-04-15 / 10:30:00",
+    "descricao": "Consulta para avaliação de eczema no rosto.",
+    "observacao": "Paciente relata coceira intensa.",
+    "receita_medicamentos": ["Pomada corticosteroide"],
+    "convenio": {
+      "nome": "Saúde",
+      "numero_carteira": "22334"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Coceira no rosto", "Vermelhidão"],
+    "exames_solicitados": ["Biópsia da pele"],
+    "data_retorno": "2025-05-01",
+    "tempo_duracao": 40,
+    "local_consulta": "Presencial - Unidade Vila Formosa",
+    "urgencia_consulta": "Normal",
+    "custo": 150.00
+  },
+  {
+    "_id_consulta": "10",
+    "crm_medico": "SP000010",
+    "id_paciente": "3",
+    "especialidade_buscada": "Ortopedista",
+    "data_hora": "2025-04-20 / 09:45:00",
+    "descricao": "Consulta para avaliação de lesão no ombro.",
+    "observacao": "Paciente relata dor ao movimentar o braço.",
+    "receita_medicamentos": ["Anti-inflamatório oral"],
+    "convenio": {
+      "nome": "Mais Saúde",
+      "numero_carteira": "44568"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Dor no ombro", "Movimentação limitada"],
+    "exames_solicitados": ["Ultrassom do ombro"],
+    "data_retorno": "2025-04-27",
+    "tempo_duracao": 40,
+    "local_consulta": "Presencial - Unidade Vila Mariana",
+    "urgencia_consulta": "Urgente",
+    "custo": 180.00
+  },
+  {
+    "_id_consulta": "11",
+    "crm_medico": "SP000009",
+    "id_paciente": "12",
+    "especialidade_buscada": "Oftalmologista",
+    "data_hora": "2025-04-18 / 13:00:00",
+    "descricao": "Consulta para avaliação de visão embaçada.",
+    "observacao": "Paciente relata dificuldades para ler.",
+    "receita_medicamentos": ["Colírio lubrificante"],
+    "convenio": {
+      "nome": "Porto Seguro Saúde",
+      "numero_carteira": "55678"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Visão embaçada", "Olhos secos"],
+    "exames_solicitados": ["Teste de acuidade visual"],
+    "data_retorno": "2025-04-25",
+    "tempo_duracao": 35,
+    "local_consulta": "Presencial - Unidade Vila Madalena",
+    "urgencia_consulta": "Normal",
+    "custo": 130.00
+  },
+  {
+    "_id_consulta": "12",
+    "crm_medico": "SP000006",
+    "id_paciente": "11",
+    "especialidade_buscada": "Cardiologista",
+    "data_hora": "2025-04-16 / 15:30:00",
+    "descricao": "Consulta para controle de colesterol elevado.",
+    "observacao": "Paciente relatou histórico familiar de hipercolesterolemia.",
+    "receita_medicamentos": ["Estatina"],
+    "convenio": {
+      "nome": "NotreDame Intermédica",
+      "numero_carteira": "66789"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Cansaço", "Desconforto no peito"],
+    "exames_solicitados": ["Perfil lipídico"],
+    "data_retorno": "2025-05-10",
+    "tempo_duracao": 50,
+    "local_consulta": "Presencial - Unidade Perdizes",
+    "urgencia_consulta": "Normal",
+    "custo": 200.00
+  },
+  {
+    "_id_consulta": "13",
+    "crm_medico": "SP000013",
+    "id_paciente": "4",
+    "especialidade_buscada": "Cardiologista",
+    "data_hora": "2025-04-21 / 16:00:00",
+    "descricao": "Consulta de revisão para monitoramento cardíaco.",
+    "observacao": "Paciente relatou sentir cansaço ao subir escadas.",
+    "receita_medicamentos": ["Diurético"],
+    "convenio": {
+      "nome": "Bem-estar",
+      "numero_carteira": "99887"
+    },
+    "status_consulta": "Agendada",
+    "medico_substituto": "SP000003",
+    "sintomas_principais": ["Cansaço", "Inchaço nas pernas"],
+    "exames_solicitados": ["Ecocardiograma"],
+    "data_retorno": "2025-05-05",
+    "tempo_duracao": 55,
+    "local_consulta": "Presencial - Unidade Santa Cecília",
+    "urgencia_consulta": "Urgente",
+    "custo": 250.00
+  },
+  {
+    "_id_consulta": "14",
+    "crm_medico": "SP000004",
+    "id_paciente": "2",
+    "especialidade_buscada": "Ortopedista",
+    "data_hora": "2025-04-20 / 11:00:00",
+    "descricao": "Consulta para avaliação de fratura no tornozelo.",
+    "observacao": "Paciente sofreu queda recente.",
+    "receita_medicamentos": ["Anti-inflamatório 3x ao dia"],
+    "convenio": {
+      "nome": "Vida",
+      "numero_carteira": "98765"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Dor intensa", "Inchaço no tornozelo"],
+    "exames_solicitados": ["Raio-X"],
+    "data_retorno": "2025-05-05",
+    "tempo_duracao": 45,
+    "local_consulta": "Presencial - Unidade Paulista",
+    "urgencia_consulta": "Urgente",
+    "custo": 180.00
+  },
+  {
+    "_id_consulta": "15",
+    "crm_medico": "SP000002",
+    "id_paciente": "7",
+    "especialidade_buscada": "Pediatria",
+    "data_hora": "2025-04-22 / 09:30:00",
+    "descricao": "Consulta de rotina para acompanhamento de desenvolvimento infantil.",
+    "observacao": "Sem histórico de problemas.",
+    "receita_medicamentos": [],
+    "convenio": {
+      "nome": "Amil",
+      "numero_carteira": "77666"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Nenhum"],
+    "exames_solicitados": ["Teste de visão e audição"],
+    "data_retorno": "2025-10-22",
+    "tempo_duracao": 30,
+    "local_consulta": "Presencial - Unidade Moema",
+    "urgencia_consulta": "Normal",
+    "custo": 120.00
+  },
+  {
+    "_id_consulta": "16",
+    "crm_medico": "SP000008",
+    "id_paciente": "3",
+    "especialidade_buscada": "Dermatologista",
+    "data_hora": "2025-04-23 / 14:00:00",
+    "descricao": "Consulta para tratamento de acne severa.",
+    "observacao": "Paciente relata pele oleosa e inflamações frequentes.",
+    "receita_medicamentos": ["Creme retinoide"],
+    "convenio": {
+      "nome": "Mais Saúde",
+      "numero_carteira": "55443"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Pele oleosa", "Inflamações"],
+    "exames_solicitados": ["Teste de alergia"],
+    "data_retorno": "2025-05-15",
+    "tempo_duracao": 40,
+    "local_consulta": "Presencial - Unidade Vila Mariana",
+    "urgencia_consulta": "Normal",
+    "custo": 160.00
+  },
+  {
+    "_id_consulta": "17",
+    "crm_medico": "SP000010",
+    "id_paciente": "5",
+    "especialidade_buscada": "Ortopedista",
+    "data_hora": "2025-04-24 / 11:00:00",
+    "descricao": "Consulta para avaliação de dor nas costas.",
+    "observacao": "Paciente relata piora após levantar peso.",
+    "receita_medicamentos": ["Relaxante muscular"],
+    "convenio": {
+      "nome": "Viver Bem",
+      "numero_carteira": "66554"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Dor lombar"],
+    "exames_solicitados": ["Raio-X da coluna"],
+    "data_retorno": "2025-05-08",
+    "tempo_duracao": 50,
+    "local_consulta": "Presencial - Unidade Pinheiros",
+    "urgencia_consulta": "Urgente",
+    "custo": 200.00
+  },
+  {
+    "_id_consulta": "18",
+    "crm_medico": "SP000007",
+    "id_paciente": "8",
+    "especialidade_buscada": "Pediatra",
+    "data_hora": "2025-04-25 / 09:00:00",
+    "descricao": "Consulta para tratamento de tosse persistente.",
+    "observacao": "Paciente apresenta sintomas há mais de 3 semanas.",
+    "receita_medicamentos": ["Xarope expectorante"],
+    "convenio": {
+      "nome": "Bradesco Saúde",
+      "numero_carteira": "44556"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Tosse", "Secreção nasal"],
+    "exames_solicitados": ["Raio-X do tórax"],
+    "data_retorno": "2025-05-15",
+    "tempo_duracao": 40,
+    "local_consulta": "Presencial - Unidade Moema",
+    "urgencia_consulta": "Normal",
+    "custo": 150.00
+  },
+  {
+    "_id_consulta": "19",
+    "crm_medico": "SP000001",
+    "id_paciente": "10",
+    "especialidade_buscada": "Neurologista",
+    "data_hora": "2025-04-26 / 15:00:00",
+    "descricao": "Consulta para avaliação de memória recente prejudicada.",
+    "observacao": "Paciente relata dificuldade em lembrar tarefas diárias.",
+    "receita_medicamentos": ["Suplemento cognitivo"],
+    "convenio": {
+      "nome": "Hapvida",
+      "numero_carteira": "99876"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Esquecimento", "Dificuldade de concentração"],
+    "exames_solicitados": ["Ressonância magnética cerebral"],
+    "data_retorno": "2025-05-10",
+    "tempo_duracao": 60,
+    "local_consulta": "Presencial - Unidade Bela Vista",
+    "urgencia_consulta": "Normal",
+    "custo": 250.00
+  },
+  {
+    "_id_consulta": "20",
+    "crm_medico": "SP000004",
+    "id_paciente": "12",
+    "especialidade_buscada": "Ortopedista",
+    "data_hora": "2025-04-27 / 14:30:00",
+    "descricao": "Consulta para avaliação de dor no ombro causada por acidente.",
+    "observacao": "Paciente relata dificuldade ao levantar o braço.",
+    "receita_medicamentos": ["Anti-inflamatório oral"],
+    "convenio": {
+      "nome": "Porto Seguro Saúde",
+      "numero_carteira": "44567"
+    },
+    "status_consulta": "Concluída",
+    "medico_substituto": null,
+    "sintomas_principais": ["Dor no ombro", "Movimentação limitada"],
+    "exames_solicitados": ["Raio-X do ombro"],
+    "data_retorno": "2025-05-10",
+    "tempo_duracao": 45,
+    "local_consulta": "Presencial - Unidade Vila Madalena",
+    "urgencia_consulta": "Urgente",
+    "custo": 180.00
+  }
+]

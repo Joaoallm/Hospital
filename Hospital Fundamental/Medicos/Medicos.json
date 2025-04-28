@@ -1,0 +1,434 @@
+[
+  {
+    "_id": "1",
+    "nome": "Dra. Jubs Coelho",
+    "data_nascimento": "2004-05-14",
+    "especialidades": ["Neurologista"],
+    "tipo": "Generalista",
+    "contato": {
+      "telefone": "111111111",
+      "email": "jubs0@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "12345678901",
+      "CRM": "SP000001"
+    },
+    "dias_trabalho": ["Segunda-feira", "Quarta-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "16:00"
+    },
+    "consultas_disponiveis": 15,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial", "Teleconsulta"],
+    "historico_consultas": "Atendeu 200 pacientes no último trimestre."
+  },
+  {
+    "_id": "2",
+    "nome": "Dr. Victor Mantovas",
+    "data_nascimento": "2006-03-13",
+    "especialidades": ["Pediatria"],
+    "tipo": "Generalista",
+    "contato": {
+      "telefone": "222222222",
+      "email": "Mantovas0@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "24897643207",
+      "CRM": "SP000002"
+    },
+    "dias_trabalho": ["Terça-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "17:00"
+    },
+    "consultas_disponiveis": 20,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial", "Urgências"],
+    "historico_consultas": "Atendeu 150 pacientes no último trimestre."
+  },
+  {
+    "_id": "3",
+    "nome": "Dr. John Martens",
+    "data_nascimento": "2003-06-16",
+    "especialidades": ["Cardiologista"],
+    "tipo": "Generalista",
+    "contato": {
+      "telefone": "33333333",
+      "email": "JohnMarstens0@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "4722712345",
+      "CRM": "SP000003"
+    },
+    "dias_trabalho": ["Segunda-feira", "Terça-feira"],
+    "horarios": {
+      "inicio": "10:00",
+      "fim": "18:00"
+    },
+    "consultas_disponiveis": 12,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial", "Urgências"],
+    "historico_consultas": "Atendeu 180 pacientes no último trimestre."
+  },
+  {
+    "_id": "4",
+    "nome": "Dr. Henrique Marques",
+    "data_nascimento": "2003-05-05",
+    "especialidades": ["Ortopedista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "444444444",
+      "email": "HenriqueM@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "56873900010",
+      "CRM": "SP000004"
+    },
+    "dias_trabalho": ["Quarta-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "14:00"
+    },
+    "consultas_disponiveis": 10,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-11",
+    "tipos_atendimento": ["Presencial"],
+    "historico_consultas": "Atendeu 90 pacientes no último trimestre."
+  },
+  {
+    "_id": "5",
+    "nome": "Fernanda Rodrigues",
+    "data_nascimento": "2002-09-25",
+    "especialidades": ["Ginecologista"],
+    "tipo": "Residente",
+    "contato": {
+      "telefone": "555555555",
+      "email": "FeRodri@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "98765432101",
+      "CRM": "SP000005"
+    },
+    "dias_trabalho": ["Segunda-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "16:00"
+    },
+    "consultas_disponiveis": 14,
+    "acesso_sistema": false,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Teleconsulta"],
+    "historico_consultas": "Atendeu 60 pacientes no último trimestre."
+  },
+  {
+    "_id": "6",
+    "nome": "Dr. Carlos Moreira",
+    "data_nascimento": "1998-02-24",
+    "especialidades": ["Cardiologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "666666666",
+      "email": "carlos.m@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "98765432100",
+      "CRM": "SP000006"
+    },
+    "dias_trabalho": ["Segunda-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "07:00",
+      "fim": "15:00"
+    },
+    "consultas_disponiveis": 18,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-11",
+    "tipos_atendimento": ["Presencial", "Teleconsulta"],
+    "historico_consultas": "Atendeu 220 pacientes no último trimestre."
+  },
+  {
+    "_id": "7",
+    "nome": "Dra. Ana Souza",
+    "data_nascimento": "1985-08-12",
+    "especialidades": ["Pediatra"],
+    "tipo": "Generalista",
+    "contato": {
+      "telefone": "777777777",
+      "email": "ana.souza@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "32165498700",
+      "CRM": "SP000007"
+    },
+    "dias_trabalho": ["Terça-feira", "Quarta-feira"],
+    "horarios": {
+      "inicio": "10:00",
+      "fim": "18:00"
+    },
+    "consultas_disponiveis": 20,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial", "Urgências"],
+    "historico_consultas": "Atendeu 170 pacientes no último trimestre."
+  },
+  {
+    "_id": "8",
+    "nome": "Dr. Henrique Pereira",
+    "data_nascimento": "1977-11-30",
+    "especialidades": ["Dermatologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "888888888",
+      "email": "henrique.p@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "65498732100",
+      "CRM": "SP000008"
+    },
+    "dias_trabalho": ["Segunda-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "17:00"
+    },
+    "consultas_disponiveis": 15,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-11",
+    "tipos_atendimento": ["Presencial"],
+    "historico_consultas": "Atendeu 80 pacientes no último trimestre."
+  },
+  {
+    "_id": "9",
+    "nome": "Dra. Larissa Lima",
+    "data_nascimento": "1985-06-18",
+    "especialidades": ["Oftalmologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "999999999",
+      "email": "larissa.l@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "76543210987",
+      "CRM": "SP000009"
+    },
+    "dias_trabalho": ["Quarta-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "14:00"
+    },
+    "consultas_disponiveis": 12,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial"],
+    "historico_consultas": "Atendeu 50 pacientes no último trimestre."
+  },
+  {
+    "_id": "10",
+    "nome": "Dr. Rafael Monteiro",
+    "data_nascimento": "1990-03-05",
+    "especialidades": ["Ortopedista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "101010101",
+      "email": "rafael.m@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "12345098765",
+      "CRM": "SP000010"
+    },
+    "dias_trabalho": ["Segunda-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "17:00"
+    },
+    "consultas_disponiveis": 14,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-11",
+    "tipos_atendimento": ["Presencial", "Urgências"],
+    "historico_consultas": "Atendeu 100 pacientes no último trimestre."
+  },
+  {
+    "_id": "11",
+    "nome": "Dra. Beatriz Santos",
+    "data_nascimento": "1988-11-22",
+    "especialidades": ["Endocrinologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "111222333",
+      "email": "beatriz.s@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "90876543210",
+      "CRM": "SP000011"
+    },
+    "dias_trabalho": ["Terça-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "14:00"
+    },
+    "consultas_disponiveis": 16,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": ["Presencial", "Teleconsulta"],
+    "historico_consultas": "Atendeu 150 pacientes no último trimestre."
+  },
+  {
+    "_id": "12",
+    "nome": "Dr. Marcos Tavares",
+    "data_nascimento": "1975-09-14",
+    "especialidades": ["Gastroenterologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "112233445",
+      "email": "marcos.t@hospital.com"
+    },
+    "status": 1,
+    "documentos": {
+      "CPF": "11098765432",
+      "CRM": "SP000012"
+    },
+    "dias_trabalho": ["Quarta-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "16:00"
+    },
+    "consultas_disponiveis": 12,
+    "acesso_sistema": true,
+    "status_atual": "Trabalhando",
+    "ultima_atualizacao_status": "2025-04-11",
+    "tipos_atendimento": ["Presencial"],
+    "historico_consultas": "Atendeu 120 pacientes no último trimestre."
+  },
+  {
+    "_id": "13",
+    "nome": "Dra. Camila Ribeiro",
+    "data_nascimento": "1982-07-21",
+    "especialidades": ["Cardiologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "123456789",
+      "email": "camila.r@hospital.com"
+    },
+    "status": 0,
+    "documentos": {
+      "CPF": "21098765432",
+      "CRM": "SP000013"
+    },
+    "dias_trabalho": ["Segunda-feira", "Terça-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "15:00"
+    },
+    "consultas_disponiveis": 0,
+    "acesso_sistema": false,
+    "status_atual": "Licença médica",
+    "ultima_atualizacao_status": "2025-04-10",
+    "tipos_atendimento": [],
+    "historico_consultas": "Sem atendimentos recentes devido à licença."
+  },
+  {
+    "_id": "14",
+    "nome": "Dr. Eduardo Silva",
+    "data_nascimento": "1979-03-14",
+    "especialidades": ["Ortopedista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "987654321",
+      "email": "eduardo.s@hospital.com"
+    },
+    "status": 0,
+    "documentos": {
+      "CPF": "31098765432",
+      "CRM": "SP000014"
+    },
+    "dias_trabalho": ["Segunda-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "16:00"
+    },
+    "consultas_disponiveis": 0,
+    "acesso_sistema": false,
+    "status_atual": "Licença médica",
+    "ultima_atualizacao_status": "2025-03-01",
+    "tipos_atendimento": [],
+    "historico_consultas": "Sem atendimentos recentes devido à licença médica."
+  },
+  {
+    "_id": "15",
+    "nome": "Dra. Juliana Martins",
+    "data_nascimento": "1985-11-09",
+    "especialidades": ["Pediatra"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "567890123",
+      "email": "juliana.m@hospital.com"
+    },
+    "status": 0,
+    "documentos": {
+      "CPF": "41098765432",
+      "CRM": "SP000015"
+    },
+    "dias_trabalho": ["Quarta-feira", "Sexta-feira"],
+    "horarios": {
+      "inicio": "09:00",
+      "fim": "15:00"
+    },
+    "consultas_disponiveis": 0,
+    "acesso_sistema": false,
+    "status_atual": "Férias",
+    "ultima_atualizacao_status": "2025-04-01",
+    "tipos_atendimento": [],
+    "historico_consultas": "Sem atendimentos recentes devido às férias."
+  },
+  {
+    "_id": "16",
+    "nome": "Dr. Fernando Alves",
+    "data_nascimento": "1980-01-25",
+    "especialidades": ["Neurologista"],
+    "tipo": "Especialista",
+    "contato": {
+      "telefone": "654321098",
+      "email": "fernando.a@hospital.com"
+    },
+    "status": 0,
+    "documentos": {
+      "CPF": "51098765432",
+      "CRM": "SP000016"
+    },
+    "dias_trabalho": ["Terça-feira", "Quinta-feira"],
+    "horarios": {
+      "inicio": "08:00",
+      "fim": "12:00"
+    },
+    "consultas_disponiveis": 0,
+    "acesso_sistema": false,
+    "status_atual": "Licença médica",
+    "ultima_atualizacao_status": "2025-03-20",
+    "tipos_atendimento": [],
+    "historico_consultas": "Sem atendimentos recentes devido à licença médica."
+  }
+]

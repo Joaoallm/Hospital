@@ -1,0 +1,322 @@
+[
+  {
+    "_id": "1",
+    "paciente_id": "6",
+    "nome_paciente": "Juliana Ferreira",
+    "medico_responsavel_id": "SP000001",
+    "nome_medico_responsavel": "Dra. Jubs Coelho",
+    "especialidade_responsavel": "Neurologista",
+    "data_entrada": "2021-03-11T08:00:00Z",
+    "data_prevista_alta": "2021-03-18T10:00:00Z",
+    "data_efetiva_alta": "2021-03-17T15:00:00Z",
+    "motivo_internacao": "Avaliação de sintomas neurológicos severos.",
+    "diagnostico_inicial": "Cefaleia crônica de origem desconhecida.",
+    "diagnostico_final": "Cefaleia tensional agravada.",
+    "tempo_total_internacao": "6 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2021-03-12T09:00:00Z", "procedimento": "Monitoramento neurológico" },
+      { "data_hora": "2021-03-13T14:00:00Z", "procedimento": "Ressonância magnética" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Estável",
+      "alta": "Recuperação total"
+    },
+    "responsaveis_adicionais": ["Fisioterapeuta F01"],
+    "historico_clinico_relevante": "Paciente com histórico de dores crônicas.",
+    "orientacoes_pos_alta": [
+      "Manter uso de analgésico conforme prescrição.",
+      "Evitar estresse e atividades extenuantes."
+    ],
+    "custos_totais": 2400.00,
+    "historico_visitas": [
+      { "data_hora": "2021-03-14T16:00:00Z", "visitante": "Família (esposa e filho)" },
+      { "data_hora": "2021-03-16T17:00:00Z", "visitante": "Amigo próximo" }
+    ],
+    "plano_cuidado_continuo": [
+      "Acompanhamento com neurologista em 30 dias.",
+      "Sessões de fisioterapia 2x por semana."
+    ],
+    "quarto_id": "101",
+    "tipo_quarto": "Apartamento",
+    "valor_diaria": 300,
+    "observacao": "Internação relacionada à cefaleia crônica.",
+    "enfermeiros_responsaveis": ["Enfermeiro E01", "Enfermeiro E02"],
+    "convenio": {
+      "nome": "Unimed",
+      "numero_carteira": "12345"
+    }
+  },
+  {
+    "_id": "2",
+    "paciente_id": "3",
+    "nome_paciente": "Carlos Souza",
+    "medico_responsavel_id": "SP000003",
+    "nome_medico_responsavel": "Dr. John Martens",
+    "especialidade_responsavel": "Cardiologista",
+    "data_entrada": "2023-02-10T10:00:00Z",
+    "data_prevista_alta": "2023-02-15T12:00:00Z",
+    "data_efetiva_alta": "2023-02-14T16:00:00Z",
+    "motivo_internacao": "Dor torácica intensa e suspeita de infarto.",
+    "diagnostico_inicial": "Suspeita de angina instável.",
+    "diagnostico_final": "Angina instável confirmada.",
+    "tempo_total_internacao": "4 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2023-02-10T11:30:00Z", "procedimento": "Cateterismo cardíaco" },
+      { "data_hora": "2023-02-12T08:00:00Z", "procedimento": "Angioplastia" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Crítico",
+      "alta": "Estável"
+    },
+    "responsaveis_adicionais": ["Fisioterapeuta F02"],
+    "historico_clinico_relevante": "Paciente com histórico de hipertensão.",
+    "orientacoes_pos_alta": [
+      "Uso contínuo de estatina.",
+      "Evitar esforço físico intenso por 30 dias."
+    ],
+    "custos_totais": 4500.00,
+    "historico_visitas": [
+      { "data_hora": "2023-02-11T15:00:00Z", "visitante": "Esposa" },
+      { "data_hora": "2023-02-13T16:00:00Z", "visitante": "Irmão" }
+    ],
+    "plano_cuidado_continuo": [
+      "Revisão com cardiologista em 15 dias.",
+      "Exercícios leves com acompanhamento."
+    ],
+    "quarto_id": "202",
+    "tipo_quarto": "Semi-privativo",
+    "valor_diaria": 250,
+    "observacao": "Internação para tratamento cardíaco.",
+    "enfermeiros_responsaveis": ["Enfermeiro E03", "Enfermeiro E04"],
+    "convenio": {
+      "nome": "Mais Saúde",
+      "numero_carteira": "67890"
+    }
+  },
+  {
+    "_id": "3",
+    "paciente_id": "1",
+    "nome_paciente": "Paulo Santos",
+    "medico_responsavel_id": "SP000002",
+    "nome_medico_responsavel": "Dr. Victor Mantovas",
+    "especialidade_responsavel": "Pediatra",
+    "data_entrada": "2025-03-05T08:00:00Z",
+    "data_prevista_alta": "2025-03-08T10:00:00Z",
+    "data_efetiva_alta": "2025-03-07T16:00:00Z",
+    "motivo_internacao": "Febre alta e sintomas respiratórios graves.",
+    "diagnostico_inicial": "Infecção viral severa.",
+    "diagnostico_final": "Infecção viral tratada com sucesso.",
+    "tempo_total_internacao": "3 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2025-03-05T09:00:00Z", "procedimento": "Exames de sangue completos" },
+      { "data_hora": "2025-03-06T14:00:00Z", "procedimento": "Nebulização" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Crítico",
+      "alta": "Recuperação parcial"
+    },
+    "responsaveis_adicionais": [],
+    "historico_clinico_relevante": "Paciente com histórico de infecções respiratórias recorrentes.",
+    "orientacoes_pos_alta": [
+      "Hidratação intensa.",
+      "Uso de antitérmico conforme prescrição."
+    ],
+    "custos_totais": 1200.00,
+    "historico_visitas": [
+      { "data_hora": "2025-03-06T17:00:00Z", "visitante": "Mãe e pai" }
+    ],
+    "plano_cuidado_continuo": [
+      "Acompanhamento com pediatra em 15 dias."
+    ],
+    "quarto_id": "103",
+    "tipo_quarto": "Semi-privativo",
+    "valor_diaria": 200,
+    "observacao": "Internação realizada para tratar sintomas respiratórios graves.",
+    "enfermeiros_responsaveis": ["Enfermeiro E05", "Enfermeiro E06"],
+    "convenio": {
+      "nome": "Saúde",
+      "numero_carteira": "22334"
+    }
+  },
+  {
+    "_id": "4",
+    "paciente_id": "9",
+    "nome_paciente": "João Almeida",
+    "medico_responsavel_id": "SP000006",
+    "nome_medico_responsavel": "Dr. Carlos Moreira",
+    "especialidade_responsavel": "Cardiologista",
+    "data_entrada": "2025-02-01T09:00:00Z",
+    "data_prevista_alta": "2025-02-10T11:00:00Z",
+    "data_efetiva_alta": "2025-02-09T14:00:00Z",
+    "motivo_internacao": "Tratamento de insuficiência cardíaca congestiva.",
+    "diagnostico_inicial": "Edema pulmonar devido à insuficiência cardíaca.",
+    "diagnostico_final": "Função cardíaca estabilizada.",
+    "tempo_total_internacao": "8 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2025-02-01T10:00:00Z", "procedimento": "Exames laboratoriais completos" },
+      { "data_hora": "2025-02-03T15:00:00Z", "procedimento": "Ecocardiograma" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Estável",
+      "alta": "Recuperação total"
+    },
+    "responsaveis_adicionais": ["Fisioterapeuta F03"],
+    "historico_clinico_relevante": "Paciente com histórico de insuficiência cardíaca.",
+    "orientacoes_pos_alta": [
+      "Revisão cardiológica em 30 dias.",
+      "Controle de peso e alimentação saudável."
+    ],
+    "custos_totais": 4800.00,
+    "historico_visitas": [
+      { "data_hora": "2025-02-05T16:00:00Z", "visitante": "Irmão" }
+    ],
+    "plano_cuidado_continuo": [
+      "Fisioterapia 3x por semana.",
+      "Acompanhamento contínuo com cardiologista."
+    ],
+    "quarto_id": "201",
+    "tipo_quarto": "Apartamento",
+    "valor_diaria": 300,
+    "observacao": "Internação para estabilização da insuficiência cardíaca.",
+    "enfermeiros_responsaveis": ["Enfermeiro E07", "Enfermeiro E08"],
+    "convenio": {
+      "nome": "SulAmérica Saúde",
+      "numero_carteira": "99876"
+    }
+  },
+  {
+    "_id": "5",
+    "paciente_id": "8",
+    "nome_paciente": "Renata Lima",
+    "medico_responsavel_id": "SP000004",
+    "nome_medico_responsavel": "Dr. Henrique Marques",
+    "especialidade_responsavel": "Ortopedista",
+    "data_entrada": "2025-03-15T08:00:00Z",
+    "data_prevista_alta": "2025-03-20T10:00:00Z",
+    "data_efetiva_alta": "2025-03-19T15:00:00Z",
+    "motivo_internacao": "Fratura na perna causada por acidente.",
+    "diagnostico_inicial": "Fratura exposta na tíbia.",
+    "diagnostico_final": "Fratura tratada com sucesso.",
+    "tempo_total_internacao": "4 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2025-03-15T09:00:00Z", "procedimento": "Cirurgia ortopédica" },
+      { "data_hora": "2025-03-16T14:00:00Z", "procedimento": "Troca de curativos e acompanhamento pós-operatório" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Estável",
+      "alta": "Recuperação parcial"
+    },
+    "responsaveis_adicionais": [],
+    "historico_clinico_relevante": "Sem histórico médico relevante.",
+    "orientacoes_pos_alta": [
+      "Evitar atividades físicas por 60 dias.",
+      "Revisão ortopédica em 15 dias."
+    ],
+    "custos_totais": 4200.00,
+    "historico_visitas": [
+      { "data_hora": "2025-03-18T16:00:00Z", "visitante": "Pai e irmã" }
+    ],
+    "plano_cuidado_continuo": [
+      "Sessões de fisioterapia 2x por semana.",
+      "Revisão com ortopedista após 30 dias."
+    ],
+    "quarto_id": "203",
+    "tipo_quarto": "Semi-privativo",
+    "valor_diaria": 250,
+    "observacao": "Internação ortopédica para fratura na tíbia.",
+    "enfermeiros_responsaveis": ["Enfermeiro E09", "Enfermeiro E10"],
+    "convenio": {
+      "nome": "Bradesco Saúde",
+      "numero_carteira": "55667"
+    }
+  },
+  {
+    "_id": "6",
+    "paciente_id": "11",
+    "nome_paciente": "Gabriela Costa",
+    "medico_responsavel_id": "SP000005",
+    "nome_medico_responsavel": "Fernanda Rodrigues",
+    "especialidade_responsavel": "Ginecologista",
+    "data_entrada": "2025-04-01T08:00:00Z",
+    "data_prevista_alta": "2025-04-05T10:00:00Z",
+    "data_efetiva_alta": "2025-04-04T16:00:00Z",
+    "motivo_internacao": "Avaliação de complicações após procedimento ginecológico.",
+    "diagnostico_inicial": "Infecção leve no trato ginecológico.",
+    "diagnostico_final": "Infecção tratada com sucesso.",
+    "tempo_total_internacao": "3 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2025-04-01T09:00:00Z", "procedimento": "Exames laboratoriais" },
+      { "data_hora": "2025-04-02T14:00:00Z", "procedimento": "Administração de antibióticos intravenosos" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Estável",
+      "alta": "Recuperação total"
+    },
+    "responsaveis_adicionais": [],
+    "historico_clinico_relevante": "Paciente com histórico de infecção urinária recorrente.",
+    "orientacoes_pos_alta": [
+      "Manter cuidados higiênicos e uso de antibióticos conforme prescrição."
+    ],
+    "custos_totais": 1500.00,
+    "historico_visitas": [
+      { "data_hora": "2025-04-02T17:00:00Z", "visitante": "Marido" }
+    ],
+    "plano_cuidado_continuo": [
+      "Revisão com ginecologista em 10 dias."
+    ],
+    "quarto_id": "301",
+    "tipo_quarto": "Semi-privativo",
+    "valor_diaria": 250,
+    "observacao": "Internação para tratar complicações pós-procedimento.",
+    "enfermeiros_responsaveis": ["Enfermeiro E04", "Enfermeiro E06"],
+    "convenio": {
+      "nome": "NotreDame Intermédica",
+      "numero_carteira": "66789"
+    }
+  },
+  {
+    "_id": "7",
+    "paciente_id": "12",
+    "nome_paciente": "Thiago Mendes",
+    "medico_responsavel_id": "SP000008",
+    "nome_medico_responsavel": "Dr. Henrique Pereira",
+    "especialidade_responsavel": "Dermatologista",
+    "data_entrada": "2025-03-20T08:00:00Z",
+    "data_prevista_alta": "2025-03-25T10:00:00Z",
+    "data_efetiva_alta": "2025-03-24T15:00:00Z",
+    "motivo_internacao": "Tratamento intensivo de reação alérgica grave.",
+    "diagnostico_inicial": "Alergia a frutos vermelhos.",
+    "diagnostico_final": "Estado alérgico controlado.",
+    "tempo_total_internacao": "4 dias",
+    "procedimentos_realizados": [
+      { "data_hora": "2025-03-20T09:00:00Z", "procedimento": "Administração de corticosteroides intravenosos" },
+      { "data_hora": "2025-03-22T14:00:00Z", "procedimento": "Exames de alergia complementares" }
+    ],
+    "estado_geral_paciente": {
+      "entrada": "Crítico",
+      "alta": "Recuperação total"
+    },
+    "responsaveis_adicionais": [],
+    "historico_clinico_relevante": "Histórico de alergias alimentares graves.",
+    "orientacoes_pos_alta": [
+      "Evitar consumo de frutos vermelhos e outros alimentos relacionados.",
+      "Revisão dermatológica em 15 dias."
+    ],
+    "custos_totais": 2500.00,
+    "historico_visitas": [
+      { "data_hora": "2025-03-23T18:00:00Z", "visitante": "Esposa" }
+    ],
+    "plano_cuidado_continuo": [
+      "Acompanhamento com dermatologista."
+    ],
+    "quarto_id": "302",
+    "tipo_quarto": "Apartamento",
+    "valor_diaria": 300,
+    "observacao": "Internação para controle de reação alérgica grave.",
+    "enfermeiros_responsaveis": ["Enfermeiro E01", "Enfermeiro E03"],
+    "convenio": {
+      "nome": "Porto Seguro Saúde",
+      "numero_carteira": "55678"
+    }
+  }
+]

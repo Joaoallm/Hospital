@@ -1,0 +1,792 @@
+[{
+  "_id": "1",
+  "nome": "Paulo Santos",
+  "data_nascimento": "1995-02-14",
+  "endereco": {
+    "logradouro": "Rua A",
+    "numero": "10",
+    "bairro": "Vila Formosa",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "12345678"
+
+  },
+  "contato": {
+    "telefone": "(11)1122223333",
+    "email": "paulo@gmail.com",
+    "subcontato1": {
+      "telefone": "11 94556-5999",
+      "whatsapp": true
+    },
+
+    "subcontato2": {
+      "telefone": "11 92269-6779",
+      "whatsapp": true
+    },
+
+    "subcontato3": {
+      "telefone": "4669-4969",
+      "whatsapp": false
+    }
+},
+  "convenio": {
+    "nome": "Saúde",
+    "validade": "2021-12-31",
+    "CNPJ": "23456789000102",
+    "carencia": 60
+  },
+  "documentos": {
+    "CPF": "98765432100",
+    "RG": "SP123456"
+  },
+
+  "tipo_sanguineo": "O-",
+
+  "alergias":[
+    {
+      "alergia": "Amendoim",
+      "observacao": "Alergia leve",
+      "reacao": "Coceira na pele, Diarreia"
+    },
+
+    {
+      "alergias": "Urticária Papular",
+      "oberservacao": "Alergia leve, pode piorar dependendo da quantidade de picadas",
+      "reacao": "Coceira na pele e vermelhidão"
+    }
+  ]
+},
+  {
+    "_id": "2",
+    "nome": "Ana Oliveira",
+    "data_nascimento": "1980-06-25",
+    "endereco": {
+      "logradouro": "Rua B",
+      "numero": "20",
+      "bairro": "Jardim Paulista",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345679"
+    },
+    "contato": {
+      "telefone": "(11)2233334444",
+      "email": "ana@gmail.com",
+      "subcontato1": {
+        "telefone": "11 94678-1234",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 91234-5678",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-4970",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Vida",
+      "validade": "2022-03-30",
+      "CNPJ": "34567890000123",
+      "carencia": 90
+    },
+    "documentos": {
+      "CPF": "12345678901",
+      "RG": "SP987654"
+    },
+    "tipo_sanguineo": "A+",
+    "alergias":[
+      {
+        "alergia": "Lactose",
+        "observacao": "Intolerância leve",
+        "reacao": "Dor abdominal"
+      },
+      {
+        "alergias": "Pólen",
+        "observacao": "Alergia sazonal",
+        "reacao": "Espirros e olhos lacrimejantes"
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "nome": "Carlos Souza",
+    "data_nascimento": "1990-09-15",
+    "endereco": {
+      "logradouro": "Avenida C",
+      "numero": "30",
+      "bairro": "Vila Mariana",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345680"
+    },
+    "contato": {
+      "telefone": "(11)3344445555",
+      "email": "carlos@gmail.com",
+      "subcontato1": {
+        "telefone": "11 94556-7890",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 92269-4321",
+        "whatsapp": true
+      },
+      "subcontato3": {
+        "telefone": "4669-4980",
+        "whatsapp": false
+      }
+    },
+    "convenio": {
+      "nome": "Mais Saúde",
+      "validade": "2023-07-15",
+      "CNPJ": "45678901000234",
+      "carencia": 30
+    },
+    "documentos": {
+      "CPF": "23456789012",
+      "RG": "SP876543"
+    },
+    "tipo_sanguineo": "AB-",
+    "alergias":[
+      {
+        "alergia": "Frutos do mar",
+        "observacao": "Reação severa",
+        "reacao": "Inchaço e dificuldade respiratória"
+      },
+      {
+        "alergias": "Picadas de insetos",
+        "observacao": "Pode levar a choque anafilático",
+        "reacao": "Inchaço e vermelhidão"
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "nome": "Mariana Ribeiro",
+    "data_nascimento": "1985-12-10",
+    "endereco": {
+      "logradouro": "Travessa D",
+      "numero": "40",
+      "bairro": "Santa Cecília",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345681"
+    },
+    "contato": {
+      "telefone": "(11)4455556666",
+      "email": "mariana@gmail.com",
+      "subcontato1": {
+        "telefone": "11 96543-2109",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 93210-9876",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-4990",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Bem-estar",
+      "validade": "2020-05-20",
+      "CNPJ": "56789012340003",
+      "carencia": 45
+    },
+    "documentos": {
+      "CPF": "34567890123",
+      "RG": "SP765432"
+    },
+    "tipo_sanguineo": "B+",
+
+    "alergias":[
+      {
+        "alergia": "Antibióticos",
+        "observacao": "Sensibilidade alta",
+        "reacao": "Náusea e tontura"
+      },
+      {
+        "alergias": "Glúten",
+        "observacao": "Alergia leve",
+        "reacao": "Erupções cutâneas"
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "nome": "Pedro Almeida",
+    "data_nascimento": "1992-04-05",
+    "endereco": {
+      "logradouro": "Alameda E",
+      "numero": "50",
+      "bairro": "Pinheiros",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345682"
+    },
+    "contato": {
+      "telefone": "555566667777",
+      "email": "pedro@gmail.com",
+      "subcontato1": {
+        "telefone": "11 97865-4321",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 94567-1234",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5000",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Viver Bem",
+      "validade": "2024-08-10",
+      "CNPJ": "67890123450004",
+      "carencia": 60
+    },
+    "documentos": {
+      "CPF": "45678901234",
+      "RG": "SP654321"
+    },
+    "tipo_sanguineo": "O+",
+    "alergias":[
+      {
+        "alergia": "Chocolate",
+        "observacao": "Moderado",
+        "reacao": "Coceira e dor de cabeça"
+      },
+      {
+        "alergias": "Nicotina",
+        "observacao": "Irritação respiratória",
+        "reacao": "Tosse e irritação nos olhos"
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "nome": "Juliana Ferreira",
+    "data_nascimento": "1987-03-22",
+    "endereco": {
+      "logradouro": "Rua F",
+      "numero": "60",
+      "bairro": "Morumbi",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345683"
+    },
+    "contato": {
+      "telefone": "666677778888",
+      "email": "juliana@gmail.com",
+      "subcontato1": {
+        "telefone": "11 94876-5432",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 95678-1234",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5010",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Unimed",
+      "validade": "2025-10-12",
+      "CNPJ": "89012345678001",
+      "carencia": 30
+    },
+    "documentos": {
+      "CPF": "56789012345",
+      "RG": "SP543210"
+    },
+    "tipo_sanguineo": "A-",
+    "alergias": [
+      {
+        "alergia": "Ácaros",
+        "observacao": "Moderado",
+        "reacao": "Espirros e congestão nasal"
+      },
+      {
+        "alergias": "Corante alimentício",
+        "observacao": "Alergia leve",
+        "reacao": "Coceira e irritação na pele"
+      }
+    ]
+  },
+  {
+    "_id": "7",
+    "nome": "Felipe Martins",
+    "data_nascimento": "1993-12-18",
+    "endereco": {
+      "logradouro": "Avenida G",
+      "numero": "70",
+      "bairro": "Itaim Bibi",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345684"
+    },
+    "contato": {
+      "telefone": "11 7788889999",
+      "email": "felipe@gmail.com",
+      "subcontato1": {
+        "telefone": "11 98765-4321",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 91234-5678",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5020",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Amil",
+      "validade": "2024-02-28",
+      "CNPJ": "12345098765001",
+      "carencia": 45
+    },
+    "documentos": {
+      "CPF": "67890123456",
+      "RG": "SP654321"
+    },
+    "tipo_sanguineo": "AB+",
+    "alergias": [
+      {
+        "alergia": "Abacaxi",
+        "observacao": "Reação severa",
+        "reacao": "Dificuldade respiratória e inchaço"
+      },
+      {
+        "alergias": "Pó de giz",
+        "observacao": "Alergia moderada",
+        "reacao": "Tosse e irritação nos olhos"
+      }
+    ]
+  },
+  {
+    "_id": "8",
+    "nome": "Renata Lima",
+    "data_nascimento": "1988-07-15",
+    "endereco": {
+      "logradouro": "Travessa H",
+      "numero": "80",
+      "bairro": "Moema",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345685"
+    },
+    "contato": {
+      "telefone": "888899990000",
+      "email": "renata@gmail.com",
+      "subcontato1": {
+        "telefone": "11 96432-1098",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 92345-6789",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5030",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Bradesco Saúde",
+      "validade": "2026-03-01",
+      "CNPJ": "89012345678002",
+      "carencia": 60
+    },
+    "documentos": {
+      "CPF": "78901234567",
+      "RG": "SP543210"
+    },
+    "tipo_sanguineo": "B-",
+    "alergias": [
+      {
+        "alergia": "Látex",
+        "observacao": "Moderado",
+        "reacao": "Erupções cutâneas e vermelhidão"
+      },
+      {
+        "alergias": "Inseticida",
+        "observacao": "Alergia severa",
+        "reacao": "Tosse e dificuldade respiratória"
+      }
+    ]
+  },
+  {
+    "_id": "9",
+    "nome": "João Almeida",
+    "data_nascimento": "1975-11-05",
+    "endereco": {
+      "logradouro": "Rua I",
+      "numero": "90",
+      "bairro": "Brooklin",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345686"
+    },
+    "contato": {
+      "telefone": "999900001111",
+      "email": "joao@gmail.com",
+      "subcontato1": {
+        "telefone": "11 93210-8765",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 98765-4321",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5040",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "SulAmérica Saúde",
+      "validade": "2023-11-30",
+      "CNPJ": "12345678900102",
+      "carencia": 90
+    },
+    "documentos": {
+      "CPF": "89012345678",
+      "RG": "SP432109"
+    },
+    "tipo_sanguineo": "O-",
+    "alergias": [
+      {
+        "alergia": "Produtos de limpeza",
+        "observacao": "Moderado",
+        "reacao": "Irritação na pele e nos olhos"
+      },
+      {
+        "alergias": "Cafeína",
+        "observacao": "Reação leve",
+        "reacao": "Palpitações e insônia"
+      }
+    ]
+  },
+  {
+    "_id": "10",
+    "nome": "Lucas Nascimento",
+    "data_nascimento": "1991-08-07",
+    "endereco": {
+      "logradouro": "Avenida Paulista",
+      "numero": "1000",
+      "bairro": "Bela Vista",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "01310300"
+    },
+    "contato": {
+      "telefone": "111122224444",
+      "email": "lucas.n@gmail.com",
+      "subcontato1": {
+        "telefone": "11 94433-1122",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 95522-3344",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5050",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Hapvida",
+      "validade": "2025-06-18",
+      "CNPJ": "89012345678003",
+      "carencia": 30
+    },
+    "documentos": {
+      "CPF": "45678912300",
+      "RG": "SP567890"
+    },
+    "tipo_sanguineo": "A+",
+    "alergias": [
+      {
+        "alergia": "Carne de porco",
+        "observacao": "Reação moderada",
+        "reacao": "Náusea e dor abdominal"
+      },
+      {
+        "alergias": "Fragrâncias artificiais",
+        "observacao": "Alergia leve",
+        "reacao": "Irritação nasal e nos olhos"
+      }
+    ]
+  },
+  {
+    "_id": "11",
+    "nome": "Gabriela Costa",
+    "data_nascimento": "1986-04-20",
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": "15",
+      "bairro": "Perdizes",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "05010000"
+    },
+    "contato": {
+      "telefone": "444455556666",
+      "email": "gabriela.c@gmail.com",
+      "subcontato1": {
+        "telefone": "11 96611-2233",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 92233-4455",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5060",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "NotreDame Intermédica",
+      "validade": "2024-12-05",
+      "CNPJ": "23456789000103",
+      "carencia": 60
+    },
+    "documentos": {
+      "CPF": "12309876500",
+      "RG": "SP765432"
+    },
+    "tipo_sanguineo": "B+",
+    "alergias": [
+      {
+        "alergia": "Banana",
+        "observacao": "Reação severa",
+        "reacao": "Inchaço na língua e dificuldade para engolir"
+      },
+      {
+        "alergias": "Poeira",
+        "observacao": "Moderado",
+        "reacao": "Espirros e coceira nos olhos"
+      }
+    ]
+  },
+  {
+    "_id": "12",
+    "nome": "Thiago Mendes",
+    "data_nascimento": "1994-11-11",
+    "endereco": {
+      "logradouro": "Rua da Harmonia",
+      "numero": "200",
+      "bairro": "Vila Madalena",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "05435000"
+    },
+    "contato": {
+      "telefone": "777788889999",
+      "email": "thiago.m@gmail.com",
+      "subcontato1": {
+        "telefone": "11 95533-2211",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 92255-3344",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5070",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Porto Seguro Saúde",
+      "validade": "2026-03-30",
+      "CNPJ": "56789012340005",
+      "carencia": 45
+    },
+    "documentos": {
+      "CPF": "09876543210",
+      "RG": "SP098765"
+    },
+    "tipo_sanguineo": "AB-",
+    "alergias": [
+      {
+        "alergia": "Mofo",
+        "observacao": "Moderado",
+        "reacao": "Dificuldade respiratória e coceira"
+      },
+      {
+        "alergias": "Frutos vermelhos",
+        "observacao": "Alergia leve",
+        "reacao": "Irritação na pele"
+      }
+    ]
+  },
+  {
+    "_id": "13",
+    "nome": "Cláudia Andrade",
+    "data_nascimento": "1984-05-08",
+    "endereco": {
+      "logradouro": "Rua da Paz",
+      "numero": "50",
+      "bairro": "Jardim América",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345687"
+    },
+    "contato": {
+      "telefone": "(11)8877776666",
+      "email": "claudia@gmail.com",
+      "subcontato1": {
+        "telefone": "11 93456-7890",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "(11) 97856-4321",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5080",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Prevent Senior",
+      "validade": "2025-07-01",
+      "CNPJ": "45678901230001",
+      "carencia": 30
+    },
+    "documentos": {
+      "CPF": "56789012345",
+      "RG": "SP654321"
+    },
+    "tipo_sanguineo": "A+",
+    "alergias": [
+      {
+        "alergia": "Camarão",
+        "observacao": "Reação severa",
+        "reacao": "Inchaço e dificuldade respiratória"
+      },
+      {
+        "alergias": "Perfume forte",
+        "observacao": "Alergia moderada",
+        "reacao": "Tosse e irritação na garganta"
+      }
+    ]
+  },
+  {
+    "_id": "14",
+    "nome": "Ricardo Lima",
+    "data_nascimento": "1990-10-02",
+    "endereco": {
+      "logradouro": "Avenida Brasil",
+      "numero": "120",
+      "bairro": "Higienópolis",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345688"
+    },
+    "contato": {
+      "telefone": "(11)7766665555",
+      "email": "ricardo@gmail.com",
+      "subcontato1": {
+        "telefone": "11 92345-6789",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 94567-1234",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5090",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Allianz Saúde",
+      "validade": "2026-04-12",
+      "CNPJ": "56789012340002",
+      "carencia": 45
+    },
+    "documentos": {
+      "CPF": "78901234567",
+      "RG": "SP543210"
+    },
+    "tipo_sanguineo": "O+",
+    "alergias": [
+      {
+        "alergia": "Amoxicilina",
+        "observacao": "Reação severa",
+        "reacao": "Erupções cutâneas e dificuldade para respirar"
+      },
+      {
+        "alergias": "Cítricos",
+        "observacao": "Alergia leve",
+        "reacao": "Coceira e vermelhidão"
+      }
+    ]
+  },
+  {
+    "_id": "15",
+    "nome": "Fernanda Borges",
+    "data_nascimento": "1987-03-13",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "75",
+      "bairro": "Consolação",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "CEP": "12345689"
+    },
+    "contato": {
+      "telefone": "(11)6655554444",
+      "email": "fernanda@gmail.com",
+      "subcontato1": {
+        "telefone": "11 91234-5678",
+        "whatsapp": true
+      },
+      "subcontato2": {
+        "telefone": "11 97865-4321",
+        "whatsapp": false
+      },
+      "subcontato3": {
+        "telefone": "4669-5100",
+        "whatsapp": true
+      }
+    },
+    "convenio": {
+      "nome": "Unimed",
+      "validade": "2024-01-15",
+      "CNPJ": "67890123450004",
+      "carencia": 60
+    },
+    "documentos": {
+      "CPF": "89012345678",
+      "RG": "SP432109"
+    },
+    "tipo_sanguineo": "AB+",
+    "alergias": [
+      {
+        "alergia": "Antiinflamatórios",
+        "observacao": "Sensibilidade leve",
+        "reacao": "Dores de cabeça e náusea"
+      },
+      {
+        "alergias": "Pelos de animais",
+        "observacao": "Alergia leve",
+        "reacao": "Espirros e irritação nos olhos"
+      }
+    ]
+  }
+
+
+]
+
+

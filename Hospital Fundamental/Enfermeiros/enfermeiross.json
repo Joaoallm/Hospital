@@ -1,0 +1,69 @@
+[{
+  "_id_enfermeiro": "E01",
+  "nome": "Maria Lúcia",
+  "cpf": "5097689864",
+  "coren": "000001-SP"
+},
+  {
+"_id_enfermeiro": "E02",
+"nome": "Kleber Machado",
+"cpf": "1224456779",
+"coren": "000002-SP"
+ },
+
+{
+"_id_enfermeiro": "E03",
+"nome": "João Pedro",
+"cpf": "12345678901",
+"coren": "000003-SP"
+},
+
+{
+"_id_enfermeiro": "E04",
+"nome": "Ana Paula",
+"cpf": "23456789012",
+"coren": "000004-SP"
+},
+
+{
+"_id_enfermeiro": "E05",
+"nome": "Carlos Eduardo",
+"cpf": "34567890123",
+"coren": "000005-SP"
+},
+
+{
+"_id_enfermeiro": "E06",
+"nome": "Fernanda Silva",
+"cpf": "45678901234",
+"coren": "000006-SP"
+},
+
+{
+"_id_enfermeiro": "E07",
+"nome": "Ricardo Santos",
+"cpf": "56789012345",
+"coren": "000007-SP"
+},
+
+{
+"_id_enfermeiro": "E08",
+"nome": "Patrícia Almeida",
+"cpf": "67890123456",
+"coren": "000008-SP"
+},
+
+{
+"_id_enfermeiro": "E09",
+"nome": "Gabriela Costa",
+"cpf": "78901234567",
+"coren": "000009-SP"
+},
+
+{
+"_id_enfermeiro": "E10",
+"nome": "Renato Oliveira",
+"cpf": "89012345678",
+"coren": "000010-SP"
+}
+]
